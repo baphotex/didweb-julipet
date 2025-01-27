@@ -8,14 +8,13 @@
 }
 
 
-*.juli.pet {
+*.JULI.PET {
         tls {
                 on_demand
         }
         reverse_proxy http://localhost:3000
 }
-
-juli.pet {
+JULI.PET {
         handle /.well-known/* { 
                 header {
                         Access-Control-Allow-Origin *
