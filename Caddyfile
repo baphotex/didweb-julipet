@@ -8,14 +8,14 @@
 }
 
 
-*.molly.diy {
+*.juli.pet {
         tls {
                 on_demand
         }
         reverse_proxy http://localhost:3000
 }
 
-molly.diy {
+juli.pet {
         handle /.well-known/* { 
                 header {
                         Access-Control-Allow-Origin *
